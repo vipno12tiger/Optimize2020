@@ -54,6 +54,14 @@ def solutionForACar(MinSpaceMatrix, MinRoadMatrix , merchanAddress, car):
             res = backtrack_road[min_index]
         else:
             res = res + "; " + backtrack_road[min_index]
+
+        flag_backtrack_road = backtrack_road[min_index].split('_')
+        for fbr in flag_backtrack_road:
+            flag_merchan = merchanAddress[int(fbr)]
+            if isContain(flag_merchan, car) == True:
+                car.__setitem__(flag_merchan, car.get(flag_merchan)-1)
+                merchanAddress[int(fbr)] = 'null'
+
         line = min_index
         # print(line)
 
