@@ -13,6 +13,8 @@
    - numpy
    - pulp
 2. Danh sách các file "*.txt" và tác dụng:
+   - Demo: chứa kết quả khi thực hiện tối ưu theo 2 cách
+        (đã ghi cụ thể trong file)
    - graph.txt: Chứa ma trận kề 
 		(ma trận biểu diễn đồ thị)
 	# File này giả sử có sẵn
@@ -25,4 +27,3 @@
 	# File này giả sử có sẵn
 3. Chạy:
    - Mở file "AppMain.py" rồi chạy.
-
