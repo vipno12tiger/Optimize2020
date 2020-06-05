@@ -1,0 +1,13 @@
+1. Khi không có dòng 58-63:
+{'Bánh gấu': 2.0, 'Chip Chip': 5.0, 'Chuppa Chups': 0.0}: Road = 0_1; 1_5; 5_1_27_7; 7_10_25_2; 2_15; 15_4_16_25; 25_10_18_20_27_1_8  &  Total_space = 46.0
+{'Bánh gấu': 3.0, 'Chip Chip': 2.0, 'Chuppa Chups': 2.0}: Road = 0_1_8_24; 24_3; 3_11_4; 4_6; 6_16; 16_12_19; 19_12_18_10_17  &  Total_space = 61.0
+{'Bánh gấu': 2.0, 'Chip Chip': 0.0, 'Chuppa Chups': 4.0}: Road = 0_3_11; 11_3_21; 21_3_11_9; 9_20; 20_18_12_23; 23_29  &  Total_space = 76.0
+{'Bánh gấu': 0.0, 'Chip Chip': 0.0, 'Chuppa Chups': 5.0}: Road = 0_6_26; 26_6_27_20_18_10; 10_18; 18_12_28; 28_12_18_20_27  &  Total_space = 54.0
+{'Bánh gấu': 0.0, 'Chip Chip': 0.0, 'Chuppa Chups': 1.0}: Road = 0_10_25_22  &  Total_space = 10.0
+
+2. Khi có dòng 58-63:
+{'Bánh gấu': 2.0, 'Chip Chip': 5.0, 'Chuppa Chups': 0.0}: Road = 0_1; 1_5; 5_1_27_7; 7_10_25_2; 2_15; 15_17  &  Total_space = 49.0
+{'Bánh gấu': 3.0, 'Chip Chip': 2.0, 'Chuppa Chups': 2.0}: Road = 0_1_8; 8_1_27_6; 6_4; 4_8_24; 24_8_4_16; 16_12_19  &  Total_space = 34.0
+{'Bánh gấu': 2.0, 'Chip Chip': 0.0, 'Chuppa Chups': 4.0}: Road = 0_3; 3_11_9; 9_11_3_21; 21_3_11_9_29_23  &  Total_space = 28.0
+{'Bánh gấu': 0.0, 'Chip Chip': 0.0, 'Chuppa Chups': 5.0}: Road = 0_6_26; 26_6_27_20_18_10; 10_18_12_28  &  Total_space = 30.0
+{'Bánh gấu': 0.0, 'Chip Chip': 0.0, 'Chuppa Chups': 1.0}: Road = 0_10_25_22  &  Total_space = 10.0
